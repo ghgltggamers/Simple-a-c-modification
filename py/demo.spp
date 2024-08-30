@@ -1,0 +1,14 @@
+comment:- Including the spp files
+
+main(){
+    cprint: "Hellow world 2024";
+
+    var:int a, b, c;
+
+    a = 67;
+    b = 78;
+
+    cinput:c;
+
+    cprint: "The result is " op:out a + b + c;
+}
