@@ -12,6 +12,14 @@ argv = sys.argv[1];
 print ('Processing ' + argv + '...');
 
 spp_header_file = open("spp.hpp", "w");
+spp_header_file.write("""
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <string.h>
+#include <cstdio>
+#include <cstdlib>
+""");
 
 __GENERATED_CPP = '// Generated C++ from Simple++ (S++) v1.0-py\n\n#include "spp.hpp"\n\n';
 
